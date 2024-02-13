@@ -7,7 +7,7 @@ function predict() {
       // Calculate rank from the top using the correct formula
       const rank = 1170036 * (percentile / 100);
       const org = (1170036 - rank) + 1
-      document.getElementById("output").textContent = "Predicted Rank (Top): " + org.toFixed(0); // Round to whole number
+      document.getElementById("output").textContent = "Predicted Rank : " + org.toFixed(0); // Round to whole number
     }
   }
   
