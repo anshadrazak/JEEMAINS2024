@@ -29,6 +29,7 @@ h1 {
 
 input {
     margin: 10px 0;
+    width: 200px;
     padding: 10px 20px;
     border: 1px solid #fff;
     background-color: white;
